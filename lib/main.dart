@@ -3,9 +3,10 @@
 import 'package:app_test/data/services.dart';
 import 'package:app_test/domain/repository/pokemon_repository_impl.dart';
 import 'package:app_test/domain/use_cases/get_abilities_use_case.dart';
-import 'package:app_test/pages/home_page.dart';
-import 'package:app_test/providers/counter_provider.dart';
-import 'package:app_test/providers/pokemon_provider.dart';
+import 'package:app_test/presentation/pages/home_page.dart';
+import 'package:app_test/presentation/pages/pokemon_details_page.dart';
+import 'package:app_test/presentation/providers/counter_provider.dart';
+import 'package:app_test/presentation/providers/pokemon_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -43,7 +44,10 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      // home: const HomePage(),
+      home: const PokemonDetailScreen(
+        pokemonName: 'pikachu',
+      ),
     );
   }
 }

@@ -1,4 +1,4 @@
-import 'package:app_test/widgets/atoms/category_button.dart';
+import 'package:app_test/presentation/widgets/atoms/category_button.dart';
 import 'package:flutter/material.dart';
 
 class CategoryGrid extends StatelessWidget {

@@ -38,8 +38,8 @@ class CategoryButton extends StatelessWidget {
             Positioned(
               right: -40,
               bottom: -20,
-              child: Image.network(
-                'https://icon-icons.com/icons2/2603/PNG/512/poke_ball_icon_155925.png',
+              child: Image.asset(
+                'assets/poke_ball_icon.png',
                 width: 100,
                 height: 100,
                 color: Colors.white.withOpacity(0.2),

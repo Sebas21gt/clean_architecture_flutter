@@ -1,10 +1,10 @@
-import 'package:app_test/widgets/atoms/custom_text.dart';
-import 'package:app_test/widgets/atoms/search_input.dart';
-import 'package:app_test/widgets/molecules/category_grid.dart';
+import 'package:app_test/presentation/widgets/atoms/custom_text.dart';
+import 'package:app_test/presentation/widgets/atoms/search_input.dart';
+import 'package:app_test/presentation/widgets/molecules/category_grid.dart';
 import 'package:flutter/material.dart';
 
-class PokemonSearchTemplate extends StatelessWidget {
-  const PokemonSearchTemplate({super.key, this.abiliteName = ''});
+class PokemonSearch extends StatelessWidget {
+  const PokemonSearch({super.key, this.abiliteName = ''});
 
   final String abiliteName;
 

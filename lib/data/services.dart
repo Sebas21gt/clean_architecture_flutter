@@ -3,7 +3,6 @@
 import 'dart:convert';
 
 import 'package:app_test/core/global_config.dart';
-import 'package:app_test/domain/models/pokemon.dart';
 import 'package:http/http.dart' as http;
 
 class Services {

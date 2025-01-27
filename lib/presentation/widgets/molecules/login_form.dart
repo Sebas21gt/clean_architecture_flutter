@@ -1,5 +1,5 @@
-import 'package:app_test/widgets/atoms/custom_button.dart';
-import 'package:app_test/widgets/atoms/custom_text_field.dart';
+import 'package:app_test/presentation/widgets/atoms/custom_button.dart';
+import 'package:app_test/presentation/widgets/atoms/custom_text_field.dart';
 import 'package:flutter/material.dart';
 
 class LoginForm extends StatelessWidget {
